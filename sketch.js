@@ -20,7 +20,7 @@ function setup() {
 
   ground = new Ground();
 
-  stand1 = new Stand(490,350,250,10);
+  stand1 = new Stand(490,320,250,10);
   stand2 = new Stand(800,200,200,10);
  
   
