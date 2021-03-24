@@ -18,7 +18,7 @@ class Box {
 display() {
     var pos = this.body.position;
     var angle = this.body.angle;
-    if (this.body.speed<5.5) {
+    if (this.body.speed<8) {
         push();
         translate(pos.x, pos.y);
         rotate(angle);
